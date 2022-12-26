@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <h1>Kalkulator</h1>
+    </header>
+
+    <main>
+      <form action="" class="form" name="form1" id="form1">
+        <fieldset id="RodzajOperacji">
+          <label for="operacja">
+            Wybierz rodzaj operacji do wykonania z listy rozwijanej:</label
+          >
+          <select name="operacja" id="operacja">
+            <option disabled selected>Wybierz operacje</option>
+            <option value="1">1. Dodawanie</option>
+            <option value="2">2. Odejmowanie</option>
+            <option value="3">3. Mnożenie</option>
+            <option value="4">4. Dzielenie</option>
+            <option value="5">5. Reszta z dzielenia</option>
+            <option disabled></option>
+          </select>
+        </fieldset>
+        <fieldset id="argumenty">
+          <label for="arg1"
+            >Wprowadź pierwszy argument operacji matematycznej:</label
+          >
+          <input type="number" name="arg1" id="arg1" />
+          <label for="arg2"
+            >Wprowadź drugi argument operacji matematycznej:</label
+          >
+          <input type="number" name="arg2" id="arg2" />
+        </fieldset>
+        <fieldset class="wynik">
+          <input type="button" id="oblicz" value="Oblicz" />
+          <input type="button" id="reset" value="Reset" />
+        </fieldset>
+      </form>
+    </main>
+    <div class="result">
+      <div id="app"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+* {
+  font-family: Lato;
+}
+body {
+  max-width: 90%;
+  min-width: 50%;
+  margin: auto;
+  width: 500px;
+}
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#form1 input {
+  display: block;
+  width: 100%;
+}
+
+#form1 select {
+  display: block;
+  width: 100%;
+}
+
+.wynik {
+  display: flex;
+  padding: 0;
+}
+
+.wynik input {
+  margin: 11px;
+}
+
+.result {
+  margin: 20px auto;
+}
+
